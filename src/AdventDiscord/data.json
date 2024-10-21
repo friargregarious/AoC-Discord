@@ -1,0 +1,94 @@
+{
+    "conversations": {
+        "welcome": {
+            "desc": "For Welcoming new members",
+            "msg": "Welcome, {user} to the Quinte & Area AoC Discord Channel!\nI'm Amanda, and I've just given you the 'member' role.\nFeel free to browse around and chat in the forums.\nTry not to be a dick and you'll get to keep your membership.\n\nGood Luck!!"
+        },
+        "!help": {
+            "desc": "This help message",
+            "msg": "No Problem {user}, here's the available commands you can choose from!\n```{menu}```\nif you have any suggestions or comments, please let me know by informing my Admin/Master FriarGreg."
+        },
+        "!join": {
+            "desc": "Join the leaderboard",
+            "msg": "No problem, {user}. Our leaderboard can be found at \n https://adventofcode.com/{year}/leaderboard/private/view/{leaderboard} \n You can use `{leaderboard}-{board_code}` to join it."
+        },
+        "!countdown": {
+            "desc": "time until next puzzle. ~ Not implemented ~",
+            "msg": "~ Not yet implemented ~"
+        },
+        "!me": {
+            "desc": "your puzzle stats. ~ Not implemented ~",
+            "msg": "~ Not yet implemented ~"
+        },
+        "!stars": {
+            "desc": "this guild's puzzle leaderboard. ~ Not implemented ~",
+            "msg": "~ Not yet implemented ~"
+        },
+        "!get": {
+            "desc": "Get today's puzzle.",
+            "msg": "Sure thing {user},\nhere's a package called: {filename}\nIt contains the input, the prompt and a python template for the day {day} puzzle."
+        },
+        "!who @<member>": {
+            "desc": "who is @<member> ~ requires a github account ~",
+            "msg": "~ Not yet implemented ~"
+        }
+    },
+    "bot_msgs": {
+        "2024-10-20 20:37:31 - friargreg": "No Problem <@415890917690441728>, here's the available commands you can choose from!\n```!help ............ This help message\n!join ............ Join the leaderboard\n!countdown ....... Time until next puzzle. ~ not implemented ~\n!me .............. Your puzzle stats. ~ not implemented ~\n!stars ........... This guild's puzzle leaderboard. ~ not implemented ~\n!who @<member> ... Who is @<member> ~ requires a github account ~```\nif you have any suggestions or comments, please let me know by informing my Admin/Master FriarGreg.",
+        "2024-10-20 20:37:34 - friargreg": "No problem, <@415890917690441728>. Our leaderboard can be found at \n https://adventofcode.com/2024/leaderboard/private/view/2588518 \n You can use `2588518-0a9244b0` to join it.",
+        "2024-10-20 20:41:14 - friargreg": "No problem, <@415890917690441728>. Our leaderboard can be found at \n https://adventofcode.com/2024/leaderboard/private/view/2588518 \n You can use `2588518-0a9244b0` to join it.",
+        "2024-10-21 09:27:15 - friargreg": "No Problem <@415890917690441728>, here's the available commands you can choose from!\n```!help ............ This help message\n!join ............ Join the leaderboard\n!countdown ....... Time until next puzzle. ~ not implemented ~\n!me .............. Your puzzle stats. ~ not implemented ~\n!stars ........... This guild's puzzle leaderboard. ~ not implemented ~\n!who @<member> ... Who is @<member> ~ requires a github account ~```\nif you have any suggestions or comments, please let me know by informing my Admin/Master FriarGreg."
+    },
+    "template_files": [
+        "AoC 2022-21.zip"
+    ],
+    "roles": {
+        "Admin": "1177320830213050498",
+        "Mod Server": "1177319965624377405",
+        "Mod Python": "1177335941636034580",
+        "Mod Java": "1177336068249505912",
+        "Mod C lang": "1177433058341814343",
+        "Mod Web": "1177336224634110053",
+        "Mod Scratch": "1177336164697513984",
+        "Member": "1177319112733642764"
+    },
+    "Tophys": {},
+    "servers": {
+        "Quinte & Area AoC": {
+            "leaderboard": "2588518-0a9244b0",
+            "server_id": "1177232278800314498",
+            "members": [
+                {
+                    "415890917690441728": {
+                        "AoC_ID": "2588518",
+                        "github": "https://github.com/friargregarious",
+                        "date_joined": "",
+                        "trophys": [],
+                        "points_scored": [
+                            {
+                                "puzzle":"",
+                                "datetime":"",
+                                "points":0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "channels": {
+                "chan_general": "1177232279437836332",
+                "chan_offtopic": "1177232279437836335",
+                "chan_welcome": "1177232279437836329",
+                "chan_notes": "1177232279437836330",
+                "chan_news": "1177322299435798629",
+                "foru_2023": "1177419825895718993",
+                "foru_2024": "1295932718416265216",
+                "foru_Python": "1177408498951262209",
+                "foru_Java": "1297556007404437504",
+                "foru_Scratch": "1297556134676398141",
+                "foru_Webs": "1297556274992517241",
+                "foru_Clangs": "1297556971372810402",
+                "foru_GO": "1297935659843059755"
+            }
+        }
+    }
+}

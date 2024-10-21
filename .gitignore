@@ -1,0 +1,6 @@
+.env
+.junk
+.venv
+
+puzzle files/*
+*.code-workspace
